@@ -6,7 +6,7 @@
     "check": "tsc --noEmit -p .",
     "format": "prettier --write \"**/*.{ts,json}\"",
     "format:check": "prettier --check \"**/*.{ts,json}\"",
-    "prepare": "effect-tsgo patch",
+    "prepare": "node ../../scripts/patch-effect-tsgo.mjs",
     "test": "vitest run",
     "test:watch": "vitest"
   },
