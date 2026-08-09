@@ -1,4 +1,16 @@
 {
+  "workspaces": [
+    "extensions/ask-user",
+    "extensions/background-terminals",
+    "extensions/copy-all",
+    "extensions/file-search",
+    "extensions/firecrawl-search",
+    "extensions/git-info",
+    "extensions/model-info",
+    "extensions/subagents",
+    "extensions/summaries",
+    "extensions/ui-customization"
+  ],
   "dependencies": {
     "@earendil-works/pi-ai": "^0.82.0",
     "@earendil-works/pi-coding-agent": "^0.82.0",
